@@ -18,7 +18,7 @@ template: home.html
 The project’s acronym is inspired by Newton's cradle analogy, which was used to demonstrate principles of conservation of momentum and energy using a series of metal balls. Similarly, the soil–plant–atmosphere continuum (SPAC) depends on all its interacting layers, and removing one “ball”, for instance, overlooking any of the soil, plant, or atmospheric dynamics, disrupts the chain of energy and mass transfer across the SPAC. When that link is missing, the final “ball” doesn’t move, and we lose the ability to capture key ecological and Earth-system interactions that are essential for fully understanding and monitoring agro-ecosystems. As such, to adequately characterize critical processes across the SPAC, a holistic approach integrating multidisciplinary expertise is needed, especially to unravel poorly understood processes, such as deep subsoil dynamics and the role of non-water rainfall inputs. In light of this and to overcome current limitations in state-of-the-art models and observation systems, the project comprises two interconnected subprojects (SP): **Newton’s Cradle
 Action (SP1, CRADLE-ROOTS)**, which focuses on the soil–root system, and **Newton’s Cradle Reaction (SP2, CRADLE-FLUX)**, which addresses plant–atmosphere interactions.
 
-{{ macros.figure(src="../images/concept_SPAC_cradle.png", 
+{{ macros.figure(src="images/concept_SPAC_cradle.png", 
     alt="concept_SPAC_cradle.png", 
     caption="The Soil-Plant-Atmosphere Continuum (SPAC)-CRADLE conceptual design with subproject 1 (SP1) and subproject 2 (SP2) interactions. SP1 and SP2 are linked by the Integrated Observation System (IOS).", 
     figsize="width:auto; height:auto;") }}
