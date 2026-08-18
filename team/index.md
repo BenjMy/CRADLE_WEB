@@ -62,10 +62,14 @@ environmental sciences and high-quality open research software.
     </div>
     {%- if person.picture is defined %}
       {%- set picture = person.picture %}
+    {%- elif person.github is defined %}
+      {%- set picture = "https://github.com/" + person.github + ".png" %}
     {%- else %}
-      {%- set picture = "https://github.com/" + ".png" %}
+      {%- set picture = none %}
     {%- endif %}
+    {%- if picture %}
     <img src="{{ picture }}" alt="Profile picture of {{ person.name }}">
+    {%- endif %}
   </div>
 {%- endfor %}
 {%- endmacro %}
