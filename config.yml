@@ -16,6 +16,8 @@ keywords: 'science, geoscience, geophysics, evapotranspiration, fires, software,
 navigation:
   - name: Home
     id: index
+  - name: News
+    id: news/index
   - name: Team
     id: team/index
   - name: Research

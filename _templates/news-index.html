@@ -1,14 +1,9 @@
 {% extends "base.html" %}
 
-{%- import "macros.html" as macros %}
-
-{%- block content %}
-  <h2>News from the project</h2>
-  <p>
-    The latest news and updates from SPAC-CRADLE project members.
-  </p>
+{%- block body %}
+  {{ page.body }}
   <ul class="flow fa-ul">
-    {%- for item in (site["news/index"]["siblings"]|sort(attribute="date", reverse=True))[:4] %}
+    {%- for item in page["siblings"]|sort(attribute="date", reverse=True) %}
       <li>
         <i class="fa-li far fa-arrow-alt-circle-right font-large" aria-hidden="true"></i>
         <a class="text-bold font-large" href="{{ item.path|relative_to(page.path) }}">{{ item.title }}</a>
@@ -23,10 +18,4 @@
       </li>
     {%- endfor %}
   </ul>
-  <p class="text-right">
-    <a href="{{ site["news/index"].path|relative_to(page.path) }}">
-      More news items can be found in: {{ site["news/index"].title }}
-    </a>
-  </p>
-  {{ page.body }}
 {%- endblock %}
