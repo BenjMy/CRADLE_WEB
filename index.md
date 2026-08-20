@@ -8,6 +8,8 @@ banner_links:
     id: team/index
   - name: The research
     id: research/index
+  - name: News
+    id: news/index
 template: home.html
 ---
 
