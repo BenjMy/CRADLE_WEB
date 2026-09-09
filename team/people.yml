@@ -1,7 +1,7 @@
 # List of members
 current:
   - name: Hector Nieto 
-    role: PI - Tenured Scientist
+    role: Co-PI - Tenured Scientist
     affiliation: Tech4Agro (ICA-CSIC)
     #pronouns: he/him
     github: hectornieto
@@ -12,7 +12,7 @@ current:
     website: https://github.com/hectornieto
 
   - name: Benjamin Mary
-    role: Co-PI - Post-doc Researcher
+    role: PI - Post-doc Researcher
     affiliation: Tech4Agro (ICA-CSIC)
     #pronouns: he/him
     github: BenjMy
@@ -23,7 +23,7 @@ current:
     website: https://benjmy.github.io/myCareerBook/intro.html
 
   - name: Vicente Burchard-Levine
-    role: Tenured Scientist
+    role: PI - Tenured Scientist
     affiliation: Speclab (IEGD-CSIC)
     #pronouns: he/him
     github: VicenteBurchard
@@ -34,7 +34,7 @@ current:
     website: https://github.com/VicenteBurchard
 
   - name: Omar García Tejera
-    role: Professor
+    role: Co-PI - Professor
     affiliation: Universidad de La Laguna (ULL)
     #pronouns: he/him
     #github: 
