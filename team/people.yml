@@ -1,18 +1,7 @@
 # List of members
 current:
-  - name: Hector Nieto 
-    role: PI - Tenured Scientist
-    affiliation: Tech4Agro (ICA-CSIC)
-    #pronouns: he/him
-    github: hectornieto
-    email: hector.nieto@ica.csic.es 
-    orcid: 0000-0003-4250-6424
-    google_scholar: https://scholar.google.com/citations?user=a2oYRksAAAAJ&hl=es
-    researchgate: https://www.researchgate.net/profile/Hector-Nieto
-    website: https://github.com/hectornieto
-
   - name: Benjamin Mary
-    role: Co-PI - Post-doc Researcher
+    role: PI - Post-doc Researcher
     affiliation: Tech4Agro (ICA-CSIC)
     #pronouns: he/him
     github: BenjMy
@@ -23,7 +12,7 @@ current:
     website: https://benjmy.github.io/myCareerBook/intro.html
 
   - name: Vicente Burchard-Levine
-    role: Tenured Scientist
+    role: PI - Tenured Scientist
     affiliation: Speclab (IEGD-CSIC)
     #pronouns: he/him
     github: VicenteBurchard
@@ -33,8 +22,19 @@ current:
     researchgate: https://www.researchgate.net/profile/Vicente-Burchard-Levine
     website: https://github.com/VicenteBurchard
 
+  - name: Hector Nieto 
+    role: Co-PI - Tenured Scientist
+    affiliation: Tech4Agro (ICA-CSIC)
+    #pronouns: he/him
+    github: hectornieto
+    email: hector.nieto@ica.csic.es 
+    orcid: 0000-0003-4250-6424
+    google_scholar: https://scholar.google.com/citations?user=a2oYRksAAAAJ&hl=es
+    researchgate: https://www.researchgate.net/profile/Hector-Nieto
+    website: https://github.com/hectornieto
+
   - name: Omar García Tejera
-    role: Professor
+    role: Co-PI - Professor
     affiliation: Universidad de La Laguna (ULL)
     #pronouns: he/him
     #github: 
