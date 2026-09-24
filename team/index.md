@@ -65,7 +65,7 @@ environmental sciences and high-quality open research software.
     {%- elif person.github is defined %}
       {%- set picture = "https://github.com/" + person.github + ".png" %}
     {%- else %}
-      {%- set picture = none %}
+      {%- set picture = "/team/pictures/Profile_avatar.png" %}
     {%- endif %}
     {%- if picture %}
     <img src="{{ picture }}" alt="Profile picture of {{ person.name }}">
@@ -84,14 +84,12 @@ The core team working across our research themes:
 
 ## Collaborators
 
-Research is never done in a vacuum! We are proud to collaborate with
-world-leading researchers:
+We are proud to collaborate with world-leading researchers:
 
 {{ profiles(page.people.collaborators) }}
 
 ## Alumni
 
-These are some of the people who passed through the lab and have since moved on
-(only those who have added themselves):
+These are some of the people who passed through the lab:
 
 {{ profiles(page.people.alumni) }}
